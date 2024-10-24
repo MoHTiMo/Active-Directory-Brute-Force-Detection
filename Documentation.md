@@ -6,7 +6,7 @@ During this project, I engaged in both red team activities (attacking the AD env
 
 One key takeaway from MyDFIR’s approach is the emphasis on keeping diagrams simple and focused. The goal is to convey the key systems and processes clearly, without unnecessary complexity. MyDFIR recommended using the free web tool, Draw.IO, for diagram creation, which I found to be a great choice for beginners. I'm glad I spent the time on Day 1 to plan and map out the lab architecture. This high-level visual reference will be invaluable as I configure the various tools and technologies in the following days.
 
-![Lab Architecture Diagram](path-to-your-diagram.png)
+![Lab Architecture Diagram](Images/path-to-your-diagram.png)
 
 ---
 
@@ -37,17 +37,17 @@ One key takeaway from MyDFIR’s approach is the emphasis on keeping diagrams si
    - Investigated failed login attempts for a specific user account (T. Smith) by filtering events for login failures (Event ID: 4625). Identified 20 failed attempts in 15 minutes.
    - Analyzed login events and found a successful login (Event ID: 4624) from the Kali machine.
 
-   ![Splunk Event Screenshot 1](path-to-screenshot1.png)
-   ![Splunk Event Screenshot 2](path-to-screenshot2.png)
+   ![Splunk Event Screenshot 1](Images/path-to-screenshot1.png)
+   ![Splunk Event Screenshot 2](Images/path-to-screenshot2.png)
 
 3. **Atomic Red Team Tests:**
    - Installed Atomic Red Team on the target machine to test tactics like T1059 (Command Line Interface) and T1136 (Create Account) from the MITRE ATT&CK framework.
    - Searched Splunk for related events to monitor and verify the tests.
 
-   ![Atomic Red Team Test Screenshot 1](path-to-screenshot3.png)
-   ![PowerShell Execution Screenshot](path-to-screenshot4.png)
-   ![Tactic Execution Screenshot](path-to-screenshot5.png)
-   ![Event Log Screenshot](path-to-screenshot6.png)
+   ![Atomic Red Team Test Screenshot 1](Images/path-to-screenshot3.png)
+   ![PowerShell Execution Screenshot](Images/path-to-screenshot4.png)
+   ![Tactic Execution Screenshot](Images/path-to-screenshot5.png)
+   ![Event Log Screenshot](Images/path-to-screenshot6.png)
 
 ---
 
